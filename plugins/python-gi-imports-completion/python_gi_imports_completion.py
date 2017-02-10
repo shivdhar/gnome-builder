@@ -78,7 +78,7 @@ class CompletionProvider(Ide.Object,
                 proposals.append(proposal)
         context.add_proposals(self, proposals, True)
 
-    def do_get_activiation(self):
+    def do_get_activation(self):
         return GtkSource.CompletionActivation.INTERACTIVE
 
     def do_match(self, context):
